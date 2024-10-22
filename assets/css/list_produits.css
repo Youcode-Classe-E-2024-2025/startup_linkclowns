@@ -11,37 +11,20 @@ body{
     grid-template-columns: repeat(12, 1fr);
     gap: 32px;
 }
+.img{
+    grid-column: span 2;
+}
 .img-size{
     width: 152px;
     height: 240px;
 }
-.boucher-img{
-    border: 1px solid #00000024;
+.d-book{
+    background: rgba(128, 128, 128, 0.112);
+    width: 152px;
+    height: 170px;
 }
-.etoil{
-    width: 100px;
-    margin-left: 18%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-/* .etoil2{
-    width: 100px;
-    margin-left: 18%;
-   
-} */
-
-h1{
-    margin: 0;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-h3{
-    margin: 0;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: 5px;
+.name{
+    height: 40px;
 }
 .p-old{
     text-decoration: line-through;
@@ -56,13 +39,19 @@ h3{
     text-align: end;
     
 }
-.d-book{
-    background: rgba(128, 128, 128, 0.112);
-    width: 152px;
-    height: 170px;
+.boucher-img{
+    border: 1px solid #00000024;
 }
-.img{
-    grid-column: span 2;
+.etoil{
+    width: 100px;
+    margin-left: 18%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ACHETER{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
 }
 .button-acheter{
     width: 100%;
@@ -70,11 +59,22 @@ h3{
     background-color: #5EB1FF;
     border: none;
 }
-.name{
-    height: 40px;
+
+h1{
+    margin: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
-.ACHETER{
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
+h3{
+    margin: 0;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 5px;
 }
+
+
+
+
+
