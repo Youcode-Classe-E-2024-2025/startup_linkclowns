@@ -9,11 +9,14 @@ body{
     margin: 20px 100px 20px 100px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap:32px;
+    gap: 32px;
 }
 .img-size{
-    width: 150px;
+    width: 152px;
     height: 240px;
+}
+.boucher-img{
+    border: 1px solid #00000024;
 }
 
 h1{
@@ -41,9 +44,9 @@ h3{
     text-align: end;
 }
 .d-book{
-    background: rgba(128, 128, 128, 0.217);
-    width: 150px;
-    height: 175px;
+    background: rgba(128, 128, 128, 0.112);
+    width: 152px;
+    height: 170px;
 }
 .img{
     grid-column: span 2;
@@ -55,4 +58,7 @@ h3{
     color: #fff;
     font-size: 16px;
     border: none;
+}
+.name{
+    height: 40px;
 }
