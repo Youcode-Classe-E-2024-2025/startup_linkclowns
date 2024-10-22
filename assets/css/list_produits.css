@@ -18,6 +18,17 @@ body{
 .boucher-img{
     border: 1px solid #00000024;
 }
+.etoil{
+    width: 100px;
+    margin-left: 18%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* .etoil2{
+    width: 100px;
+    margin-left: 18%;
+   
+} */
 
 h1{
     margin: 0;
@@ -37,11 +48,13 @@ h3{
     margin: 0;
     display: inline;
     text-align: left;
+    color: red;
 }
 .p-new{
     font-size: 24px;
     margin: 0;
     text-align: end;
+    
 }
 .d-book{
     background: rgba(128, 128, 128, 0.112);
