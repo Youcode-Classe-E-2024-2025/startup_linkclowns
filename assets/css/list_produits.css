@@ -19,6 +19,9 @@ body{
     height: 240px;
     box-shadow: 0px 0px 10px #000 ;
 }
+.img-size:hover{
+    box-shadow: 0px 10px 30px #000 ;
+}
 .d-book{
     background: rgba(128, 128, 128, 0.112);
     width: 152px;
