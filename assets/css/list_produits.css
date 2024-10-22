@@ -17,11 +17,13 @@ body{
 .img-size{
     width: 152px;
     height: 240px;
+    box-shadow: 0px 0px 10px #000 ;
 }
 .d-book{
     background: rgba(128, 128, 128, 0.112);
     width: 152px;
     height: 170px;
+    
 }
 .name{
     height: 40px;
