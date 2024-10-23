@@ -15,14 +15,11 @@ body{
     grid-column: span 2;
 }
 .img-size{
-    /* width: 152px;
-    height: 240px; */
     width: 100%;
     height:50%;
     box-shadow: 0px 0px 3px #000 ;
 }
 .img-size:hover{
-    /* box-shadow: 0px 10px 30px #000 ; */
     transform: scale(1.04);
 }
 .d-book{
@@ -60,7 +57,6 @@ body{
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
-    /* text-shadow: 0px 0px 5px white,0px 0px 5px rgb(176, 213, 255), 0px 0px 5px white; */
 }
 .button-acheter{
     width: 100%;
@@ -75,6 +71,7 @@ h1{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-weight: 600;
 }
 h3{
     margin: 0;
@@ -82,10 +79,23 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 5%;
+    color: #000000bf;
+}
+@media (min-width:1200px){
+    h3{
+        font-size: 16px;
+        color: #00000094;
+        height: 25px;
+    }
+    h1{
+        font-size: 24px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 800px){
     .first-suction{
-        margin: 3% 5% 2% 5%;
+        margin: 20% 5% 30% 5%;
         display: grid;
         grid-template-columns: repeat(9, 1fr);
         /* row-gap: 24px;
@@ -101,11 +111,15 @@ h3{
         grid-column: span 3;
     }
     h3{
-        font-size: 16px;
+        font-size: 13px;
+        color: #00000094;
+        height: 25px;
     }
     h1{
-        font-size: 26px;
+        font-size: 12px;
+        font-weight: 900;
     }
+}
     @media (max-width: 450px){
         .first-suction{
             display: grid;
@@ -121,7 +135,8 @@ h3{
             grid-column: span 2;
         }
     }
-}
+
+
 
 
 
