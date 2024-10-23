@@ -5,14 +5,7 @@ body{
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-.detail-de-paiement{
-    width: 400px;
-    height: 450px;
-    background: #00000047;
-    border-radius: 5px;
 
-    
-}
 label,input{
     display: block;
     margin-left: 10%;
@@ -26,12 +19,24 @@ label{
     margin-bottom: 10px;
     font-size: 16px;
 }
-.date{
-    display: inline;
-    width: 39%;
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px 100px;
 }
-.date-l{
-    display: block;
+.img{
+    display: flex;
+    align-content: start;
+}
+.img-car{
+    width: 100%;
+    height: 300px;
+}
+.detail-de-paiement{
+    width: 400px;
+    height: 450px;
+    background: #00000047;
+    border-radius: 5px;
 }
 .bar-detail{
     width: 300px;
@@ -44,13 +49,22 @@ label{
     margin-bottom: 20px;
     border-radius: 10px;
 }
+h1{
+    padding: 5px;
+}
+.date-l{
+    display: block;
+}
+.date{
+    display: inline;
+    width: 39%;
+}
+
+
 .cvc{
     margin-left: 0;
 }
-.img{
-    display: flex;
-    align-content: start;
-}
+
 .button-acheter{
     width:155px;
     height: 30px;
@@ -64,34 +78,25 @@ label{
     background:#619BFF;
     border: none;
 }
-
-.cards{
-    width: 80px;
-    height: 20px;
-    position: absolute;
-    right: 38%;
-}
-.grid{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin: 20px 100px;
-}
-.img-car{
-    width: 100%;
-    height: 300px;
-}
-
-.book{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6,1fr);
-}
 .img-book{
     width: 100%;
     height: 70%;
     grid-column: 2/span 5;
     grid-row: 3/span 5;
 }
-h1{
-    padding: 5px;
+.cards{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    right: 38%;
 }
+
+
+
+.book{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+
+
