@@ -1,5 +1,90 @@
-.div{
-    width: 350px;
+body{
+    display: flex;
+    justify-content: center;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.detail-de-paiement{
+    width: 400px;
     height: 400px;
     background: #00000047;
+    border-radius: 20px;
+
+    
+}
+label,input{
+    display: block;
+    margin-left: 50px;
+}
+input{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+label{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.date{
+    display: inline;
+    width: 144px;
+}
+.bar-detail{
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.cvc{
+    margin-left: 0;
+}
+.img{
+    display: flex;
+    align-content: start;
+}
+.button-acheter{
+    width:150px;
+    height: 30px;
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    margin-left: 130px;
+    border-radius: 30px;
+}
+.button-acheter:hover{
+    background:rgba(79, 79, 255, 0.457);
+}
+
+.cards{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    right: 38%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px 100px;
+}
+.img-car{
+    width: 100%;
+    height: 300px;
+}
+
+.book{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+.img-book{
+    width: 70%;
+    height: 200px;
+    grid-column: 1/span 3;
+    grid-row: 2/span 3;
 }
