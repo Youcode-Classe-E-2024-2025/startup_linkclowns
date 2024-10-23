@@ -6,17 +6,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .first-suction{
-    margin: 20px 100px 20px 100px;
+    margin: 100px 30px 100px 30px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 32px;
+    gap: 1.5rem;
 }
 .img{
     grid-column: span 2;
 }
 .img-size{
-    width: 152px;
-    height: 240px;
+    /* width: 152px;
+    height: 240px; */
+    width: 100%;
+    height:50%;
     box-shadow: 0px 0px 3px #000 ;
 }
 .img-size:hover{
@@ -25,12 +27,12 @@ body{
 }
 .d-book{
     background: rgba(128, 128, 128, 0.112);
-    width: 152px;
-    height: 170px;
+    width: 100%;
+    height: 41%;
     
 }
 .name{
-    height: 40px;
+    height: 25%;
 }
 .p-old{
     text-decoration: line-through;
@@ -49,10 +51,10 @@ body{
     border: 1px solid #00000024;
 }
 .etoil{
-    width: 100px;
-    margin-left: 18%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    width: 70%;
+    margin-left: 16%;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 .ACHETER{
     text-decoration: none;
@@ -79,8 +81,33 @@ h3{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: 5px;
+    margin: 5%;
 }
+@media (max-width: 800px){
+    .first-suction{
+        margin: 3% 5% 2% 5%;
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        /* row-gap: 24px;
+        gap: 24px; */
+        gap: 4rem 1rem;
+    }
+    .img-size{
+        width: 100%;
+        height: 60%;
+        box-shadow: 0px 0px 3px #000 ;
+    }
+    .img{
+        grid-column: span 3;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 26px;
+    }
+}
+
 
 
 
