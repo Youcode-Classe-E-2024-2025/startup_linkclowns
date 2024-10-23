@@ -8,7 +8,7 @@ body{
 
 label,input{
     display: block;
-    margin-left: 10%;
+    margin-left: 30px;
 }
 input{
     width: 80%;
@@ -22,7 +22,7 @@ label{
 .grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin: 20px 100px;
+    margin:0;
 }
 .img{
     display: flex;
@@ -30,11 +30,11 @@ label{
 }
 .img-car{
     width: 100%;
-    height: 300px;
+    height: 80%;
 }
 .detail-de-paiement{
-    width: 400px;
-    height: 450px;
+    width: 110%;
+    height: 105%;
     background: #00000047;
     border-radius: 5px;
 }
@@ -66,17 +66,22 @@ h1{
 }
 
 .button-acheter{
-    width:155px;
+    width:40%;
     height: 30px;
     background-color: black;
     font-size: 16px;
     color: white;
-    margin-left: 130px;
+    margin-left: 30%;
     border-radius: 10px;
 }
 .button-acheter:hover{
     background:#619BFF;
     border: none;
+}
+.book{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6,1fr);
 }
 .img-book{
     width: 100%;
@@ -85,18 +90,84 @@ h1{
     grid-row: 3/span 5;
 }
 .cards{
-    width: 80px;
+    width: 5%;
     height: 20px;
     position: absolute;
-    right: 38%;
+    right: 36%;
 }
 
 
 
-.book{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6,1fr);
+
+@media (max-width: 800px){
+    
+
+    .detail-de-paiement{
+        width:100%;
+        height: 100%;
+        background: #00000047;
+        border-radius: 5px;
+    }
+    
+    label,input{
+        display: block;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    input{
+        width: 80%;
+        height: 3vw;
+        margin-bottom: 15px;
+    }
+    label{
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .img-car{
+        width: 100%;
+        height: 100%;
+    }
+    .bar-detail{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        color: white;
+        font-size:12px;
+        text-align: center;
+        margin-left:0;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    .img-book{
+        width: 60%;
+        height: 50%;
+        grid-column: 2/span 5;
+        grid-row: 3/span 5;
+    }
+    .grid{
+        margin-top: 30%;
+    }
+    .button-acheter{
+        width:65%;
+        height: 30px;
+        background-color: black;
+        font-size: 12px;
+        font-weight: 600;
+        color: white;
+        margin-left: 18%;
+        border-radius: 10px;
+    }
+    .date{
+        display: inline;
+        width: 36%;
+    }
+    .cards{
+        width: 9%;
+        height: 20px;
+        position: absolute;
+        right: 36%;
+    }
+
 }
 
 
