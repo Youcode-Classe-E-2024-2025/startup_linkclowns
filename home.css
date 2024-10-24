@@ -7,7 +7,7 @@ body {
   /* width: 100%; */
   display: grid;
   grid-template-rows: 100px;
-  height: 3448px;
+  /* height: 3448px; */
   margin: 0;
 }
 
@@ -28,12 +28,12 @@ nav>span {
   margin-left: 70px;
 }
 
-.icons-navbar {
-  width: 150px;
+/* .icons-navbar {
+  width: 10px;
   display: flex;
   justify-content: space-between;
   background-color: none;
-}
+} */
 
 .bar-chercher {
   display: flex;
@@ -41,28 +41,26 @@ nav>span {
   align-items: center;
   background-color: rgb(51, 51, 51);
   border-radius: 28px;
-  width: 400px;
-  height: 56px;
+  width:30%;
+  height: 40%;
   border: none;
 
 }
 .bar-chercher > button{
   width: auto;
-  height:55px;
+  height:65%;
   border: none;
 }
 
-.bar-chercher>img {
+/* .bar-chercher>img {
   width: 45px;
   height: 45px;
-}
+} */
 
 .menu-buy {
 
-  height: 55px;
+  height: 50%;
   display: flex;
-
-  gap: 20px;
 }
 
 .test {
@@ -78,7 +76,7 @@ button {
   background: transparent !important;
 }
 
-.image-1-top {
+.image-1-top >img {
   width: 90%;
   height: 133px;
   display: flex;
@@ -87,7 +85,7 @@ button {
 }
 
 .slider-1>img {
-  width: 1414px;
+  width: 100%;
   height: 496px;
   display: flex;
   justify-self: center;
@@ -95,7 +93,7 @@ button {
 }
 
 .rectangle {
-  width: 1171px;
+  width: 85%;
   height: 14px;
   background-color: #d9d9d9;
   border-radius: 360px;
@@ -121,7 +119,7 @@ button {
 }
 
 .les-produits-plus-vendus {
-  width: 1242px;
+  width: 90%;
   height: 1053px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -136,8 +134,8 @@ button {
   align-items: center;
   /* gap: 30px; */
   flex-direction: column;
-  width: 324px;
-  height: 461px;
+  width: 90%;
+  height: 90%;
   background-color: #535353;
   border-radius: 85px;
   font-size: 40px;
@@ -146,8 +144,8 @@ button {
 }
 
 .book-1>img {
-  width: 225px;
-  height: 329.06px;
+  width: 70%;
+  height: 70%;
   margin-top: 10%;
 }
 
@@ -285,6 +283,7 @@ ul{
   display: inline;
   /* padding: 30px 0px 0px 0px; */
   margin: 0;
+  padding: 0;
 }
 ul li {
   display: inline-block;
@@ -321,4 +320,7 @@ ul li a:hover{
 }
 ul li:hover ul.dropdown {
   display: block;
+}
+section{
+  width: 100%;
 }
