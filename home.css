@@ -4,7 +4,7 @@
 } */
 
 body {
-  width: max-content;
+  /* width: 100%; */
   display: grid;
   grid-template-rows: 100px;
   height: 3448px;
@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-  width: auto;
+  width: 100%;
   height: 108px;
   background-color: black;
   display: flex;
@@ -20,7 +20,7 @@ nav {
   align-items: center;
 }
 
-nav > span {
+nav>span {
   color: azure;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 64px;
@@ -34,16 +34,36 @@ nav > span {
   justify-content: space-between;
   background-color: none;
 }
+
 .bar-chercher {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: rgb(51, 51, 51);
   border-radius: 28px;
   width: 400px;
   height: 56px;
   border: none;
+
 }
+.bar-chercher > button{
+  width: auto;
+  height:55px;
+}
+
+.bar-chercher>img {
+  width: 45px;
+  height: 45px;
+}
+
+.menu-buy {
+
+  height: 55px;
+  display: flex;
+
+  gap: 20px;
+}
+
 .test {
   background-color: transparent !important;
   font-size: 16px;
@@ -52,23 +72,27 @@ nav > span {
   border: none;
   color: rgb(255, 255, 255);
 }
+
 button {
   background: transparent !important;
 }
+
 .image-1-top {
-  width: 1330px;
+  width: 90%;
   height: 133px;
   display: flex;
   justify-self: center;
   margin-top: 20px;
 }
-.slider-1 > img {
+
+.slider-1>img {
   width: 1414px;
   height: 496px;
   display: flex;
   justify-self: center;
   margin-top: 20px;
 }
+
 .rectangle {
   width: 1171px;
   height: 14px;
@@ -77,6 +101,7 @@ button {
   justify-self: center;
   margin: 20px;
 }
+
 .rectangle-interne {
   display: flex;
   width: 594px;
@@ -89,9 +114,11 @@ button {
   border-radius: 360px;
   margin: 20px;
 }
-.rectangle-interne > span {
+
+.rectangle-interne>span {
   margin-left: 95px;
 }
+
 .les-produits-plus-vendus {
   width: 1242px;
   height: 1053px;
@@ -100,6 +127,7 @@ button {
   grid-template-rows: repeat(2, 1fr);
   justify-self: center;
 }
+
 .book-1 {
   display: flex;
   /* justify-items: center; */
@@ -115,10 +143,12 @@ button {
   font-family: Chathura;
   font-weight: 300;
 }
-.book-1 > img {
+
+.book-1>img {
   width: 225px;
   height: 329.06px;
 }
+
 .prix {
   width: 211px;
   height: 78px;
@@ -127,14 +157,17 @@ button {
   align-items: center;
   gap: 10px;
 }
-.prix > img {
+
+.prix>img {
   width: 115px;
   height: 19px;
 }
-.book-1 > a {
+
+.book-1>a {
   text-decoration: none;
   color: #d9d9d9;
 }
+
 .rectangle-interne-2 {
   display: flex;
   width: 613px;
@@ -147,33 +180,38 @@ button {
   border-radius: 360px;
   margin: 20px;
 }
-.rectangle-interne-2 >span{
+
+.rectangle-interne-2>span {
   margin-left: 30px;
 }
-.commentaires-sur-notre-magasin{
-width: 961px;
-height: 919px;
-display: flex;
-justify-self: center;
-flex-direction: column;
-justify-content: space-between;
-align-content: space-between;
+
+.commentaires-sur-notre-magasin {
+  width: 961px;
+  height: 919px;
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
 }
-.Commentaires-1{
+
+.Commentaires-1 {
   width: 961px;
   height: 159px;
-  border: solid 1px  black;
+  border: solid 1px black;
   border-radius: 360px;
   display: flex;
   justify-items: center;
   align-items: center;
-  
+
 
 }
-.Commentaires-1 >span{
+
+.Commentaires-1>span {
   /* align-self: center; */
 }
-.Commentaires-1 > img{
+
+.Commentaires-1>img {
   width: 64px;
   height: 64px;
   border-radius: 100%;
@@ -181,25 +219,29 @@ align-content: space-between;
   margin: 20px;
   /* align-self: center; */
   justify-self: flex-start;
-margin-bottom: 60px;
+  margin-bottom: 60px;
 }
-.nom-comment{
-margin-bottom: 20px;
-display: flex;
-align-items: center;
-gap: 20px;
-font-size: 24px;
+
+.nom-comment {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
 }
-.nom-comment >img{
+
+.nom-comment>img {
   width: 194px;
   height: 30px;
 }
-.nom-comment-text >span{
-  font-size:16px;
+
+.nom-comment-text>span {
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-  
+
 }
-footer{
+
+footer {
   background-color: black;
   display: flex;
   justify-content: center;
@@ -208,22 +250,30 @@ footer{
   color: white;
   gap: 20px;
 }
-.text-footer{
-font-size: 40px;
-font-family:Baskervville SC ;
+
+.text-footer {
+  font-size: 40px;
+  font-family: Baskervville SC;
 }
-footer >span{
-font-size: 96px;
-font-family: Chathura;
-color: #FAA7A7;
+
+footer>span {
+  font-size: 96px;
+  font-family: Chathura;
+  color: #FAA7A7;
 }
-.icons-footer{
+
+.icons-footer {
   width: 577px;
   height: 65px;
   display: flex;
   justify-content: space-between;
 }
-.icons-footer >a >img{
-  width:54px;
+.menu{
+  width: 100px;
+  height: 50px;
+  gap: 20px;
+}
+.icons-footer>a>img {
+  width: 54px;
   height: 54px;
 }
