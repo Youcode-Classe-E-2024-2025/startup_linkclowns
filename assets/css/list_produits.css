@@ -83,15 +83,30 @@ h3{
 }
 @media (min-width:1200px){
     h3{
-        font-size: 16px;
+        font-size: 20px;
         color: #00000094;
         height: 25px;
     }
     h1{
-        font-size: 24px;
+        font-size: 32px;
         font-weight: 900;
         margin-bottom: 20px;
     }
+    .p-old{
+        text-decoration: line-through;
+        margin: 0;
+        display: inline;
+        text-align: left;
+        color: red;
+        font-size: 32px;
+    }
+    .p-new{
+        font-size: 40px;
+        margin: 0;
+        text-align: end;
+        
+    }
+
 }
 @media (max-width: 800px){
     .first-suction{
@@ -122,6 +137,7 @@ h3{
 }
     @media (max-width: 450px){
         .first-suction{
+            margin: 20% 5% 30% 5%;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 4rem 1rem;
